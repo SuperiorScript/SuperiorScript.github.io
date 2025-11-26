@@ -1,14 +1,478 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Your Name – ML & AI Engineer</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <title>Ashish Ernest Rahul – ML & AI Engineer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Portfolio of Ashish Ernest Rahul – Machine Learning & AI Engineer specializing in LLMs, RAG systems, and production ML."
+  />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-<!-- Placeholder minimal site -->
-<h1>Your Name</h1>
-<p>Minimal dark portfolio. Replace content as needed.</p>
+  <header class="site-header">
+    <div class="nav-inner">
+      <div class="logo-dot"></div>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#research">Research</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-left">
+        <div class="avatar-wrapper">
+          <!-- Replace avatar.png with your photo -->
+          <img src="images/avatar.png" alt="Portrait of Ashish Ernest Rahul" class="avatar" />
+        </div>
+      </div>
+      <div class="hero-right">
+        <p class="hero-tag">Machine Learning · AI · LLMs · Data Science</p>
+        <h1 class="hero-title">Ashish Ernest&nbsp;Rahul</h1>
+        <p class="hero-subtitle">
+          ML &amp; AI Engineer building <strong>agentic LLM systems</strong>, <strong>RAG pipelines</strong>,
+          and <strong>production-grade machine learning solutions</strong> that actually ship.
+        </p>
+        <p class="hero-subtext">
+          I enjoy turning messy, real-world data into systems that are <strong>reliable</strong>,
+          <strong>observable</strong>, and <strong>useful</strong> – from blueprint-generating agents to
+          internal QA copilots and diffusion models.
+        </p>
+        <div class="hero-links">
+          <a class="btn-primary" href="#projects">View projects</a>
+          <a class="btn-ghost" href="mailto:ashish.rahul@icloud.com">Email</a>
+          <a class="btn-link" href="https://github.com/SuperiorScript" target="_blank" rel="noreferrer">GitHub →</a>
+          <a class="btn-link" href="https://www.linkedin.com/in/aerj/" target="_blank" rel="noreferrer">LinkedIn →</a>
+          <!-- Add your resume file and uncomment this:
+          <a class="btn-link" href="Ashish_Ernest_Rahul_Resume.pdf" target="_blank" rel="noreferrer">Resume →</a>
+          -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <h2 class="section-title">About</h2>
+      <p class="section-text">
+        I’m a <strong>Data Science Advisor at Dell Technologies</strong> focused on building applied AI systems:
+        agentic LLM workflows, retrieval-augmented generation (RAG) platforms, and ML pipelines that integrate cleanly
+        with existing products and engineering teams.
+      </p>
+      <p class="section-text">
+        My recent work includes <strong>LLM-powered document editing assistants</strong>, a
+        <strong>blueprint-generating agentic framework</strong> backed by Neo4j and LangGraph, a
+        <strong>multi-source internal QA copilot</strong> over Confluence/Jira and more, and
+        <strong>fine-tuning StarCoder2</strong> for code completion on domain-specific blueprint files.
+      </p>
+      <p class="section-text">
+        I care deeply about <strong>evaluation</strong>, <strong>observability</strong>, and
+        <strong>developer experience</strong> around ML/LLM systems – not just model scores in a notebook.
+      </p>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skills-card">
+          <div class="skills-header">
+            <span class="skills-icon">💻</span>
+            <h3>Languages</h3>
+          </div>
+          <p class="section-text small">
+            Python, Java, SQL, C, C++, JavaScript (D3.js), R, MATLAB
+          </p>
+        </div>
+
+        <div class="skills-card">
+          <div class="skills-header">
+            <span class="skills-icon">🧠</span>
+            <h3>ML &amp; AI</h3>
+          </div>
+          <p class="section-text small">
+            Supervised &amp; unsupervised learning, Deep Learning, Reinforcement Learning, LLMs, RAG,
+            NLP, Time-series forecasting, Model evaluation/validation, Experiment design.
+          </p>
+        </div>
+
+        <div class="skills-card">
+          <div class="skills-header">
+            <span class="skills-icon">📦</span>
+            <h3>Libraries &amp; Tools</h3>
+          </div>
+          <p class="section-text small">
+            NumPy, Pandas, scikit-learn, Matplotlib, Seaborn, PyTorch, TensorFlow, Kubeflow,
+            LangChain, LangGraph, Neo4j, ARIMA, LLaVA, RAGAS, Autogen.
+          </p>
+        </div>
+
+        <div class="skills-card">
+          <div class="skills-header">
+            <span class="skills-icon">☁️</span>
+            <h3>Systems &amp; MLOps</h3>
+          </div>
+          <p class="section-text small">
+            Cloud infrastructure, ML model deployment, CI/CD for ML, vector stores, evaluation pipelines,
+            data ingestion &amp; indexing, experiment tracking, Agile collaboration.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+      <h2 class="section-title">Experience</h2>
+      <div class="timeline">
+
+        <article class="timeline-item">
+          <div class="timeline-badge">
+            <!-- Placeholder icon for Dell -->
+            <img src="images/dell-logo.png" alt="Dell logo" />
+          </div>
+          <div class="timeline-content">
+            <header class="timeline-header">
+              <h3>Data Science Advisor · Dell Technologies</h3>
+              <span class="timeline-meta">Nov 2022 – Present · Boston, MA (Remote)</span>
+            </header>
+
+            <div class="experience-project">
+              <h4>DevX – LLM Document Editing Assistant</h4>
+              <p class="section-text small">
+                Architected an agentic LLM system that lets Dell content creators <strong>edit and re-write product
+                whitepapers by simply describing the changes they want</strong>. Users can highlight specific sentences
+                or paragraphs, and the system rewrites just those regions while preserving technical tone.
+              </p>
+              <p class="section-text small">
+                Introduced <strong>dynamic indexing</strong> for document ingestion, resulting in a
+                <strong>~98% reduction in redundant processing</strong> and significant savings in both time and
+                compute. Prototyped a clean UX using Streamlit for rapid feedback from stakeholders.
+              </p>
+              <div class="pill-row">
+                <span class="pill">LLMs</span>
+                <span class="pill">RAG</span>
+                <span class="pill">Streamlit</span>
+                <span class="pill">Dynamic indexing</span>
+              </div>
+            </div>
+
+            <div class="experience-project">
+              <h4>AI Factory – Blueprint-Generating Agentic Framework</h4>
+              <p class="section-text small">
+                Built an <strong>LLM-based multi-agent framework</strong> that generates blueprint configuration files
+                from natural language requests. Conversation flows are orchestrated with a <strong>dialogue controller
+                over 6 agents</strong> using <strong>LangChain</strong> and <strong>LangGraph</strong>, with
+                <strong>Neo4j</strong> storing relational graph data and vector embeddings.
+              </p>
+              <p class="section-text small">
+                Developed a robust evaluation pipeline that uses <strong>Autogen</strong> for tool-calling and
+                <strong>RAGAS</strong> for scoring semantic correctness and robustness, giving the team visibility into
+                where the system fails and why.
+              </p>
+              <div class="pill-row">
+                <span class="pill">Agentic LLMs</span>
+                <span class="pill">LangGraph</span>
+                <span class="pill">Neo4j</span>
+                <span class="pill">RAGAS</span>
+                <span class="pill">Autogen</span>
+              </div>
+            </div>
+
+            <div class="experience-project">
+              <h4>PowerAssist – Internal QA Copilot</h4>
+              <p class="section-text small">
+                Designed a <strong>QA assistant</strong> over 5+ internal sources including Confluence and Jira.
+                Implemented ingestion pipelines with <strong>LangChain</strong> for text processing and embeddings, and
+                benchmarked multiple vector stores for <strong>speed vs. stability</strong> tradeoffs.
+              </p>
+              <p class="section-text small">
+                Extended the system to <strong>understand image-heavy PDFs</strong> by extracting images and generating
+                natural language descriptions via <strong>LLaVA</strong>, enabling richer context and drastically
+                improving answer quality for visual documents.
+              </p>
+              <div class="pill-row">
+                <span class="pill">RAG</span>
+                <span class="pill">LangChain</span>
+                <span class="pill">Vector stores</span>
+                <span class="pill">LLaVA</span>
+                <span class="pill">Kubeflow</span>
+              </div>
+            </div>
+
+            <div class="experience-project">
+              <h4>Model Fine-tuning &amp; Generative Imaging</h4>
+              <p class="section-text small">
+                Fine-tuned <strong>StarCoder2</strong> for a code completion task on internal blueprint files using
+                <strong>SFTTrainer</strong> and <strong>PEFT</strong>, improving relevance and style adaptation to
+                Dell-specific patterns.
+              </p>
+              <p class="section-text small">
+                Trained a <strong>denoising diffusion U-Net</strong> to generate sample images, gaining hands-on
+                experience with modern generative modeling and sampling strategies.
+              </p>
+              <div class="pill-row">
+                <span class="pill">StarCoder2</span>
+                <span class="pill">PEFT</span>
+                <span class="pill">Diffusion models</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-badge">
+            <img src="images/clorox-logo.png" alt="Clorox logo" />
+          </div>
+          <div class="timeline-content">
+            <header class="timeline-header">
+              <h3>Data Science Intern · The Clorox Company</h3>
+              <span class="timeline-meta">Jul 2020 – Sep 2020 · Oakland, CA</span>
+            </header>
+            <p class="section-text small">
+              Performed <strong>topic modeling</strong> on user reviews from <strong>840+ products</strong> to surface
+              key customer themes, and built <strong>ARIMA-based demand forecasts</strong> on high-frequency time-series
+              data with ~<strong>84% accuracy</strong>, leading to significantly improved product provisioning in under
+              8 weeks.
+            </p>
+            <div class="pill-row">
+              <span class="pill">Topic modeling</span>
+              <span class="pill">ARIMA</span>
+              <span class="pill">Demand forecasting</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-badge">
+            <img src="images/tokenmetrics-logo.png" alt="Token Metrics logo" />
+          </div>
+          <div class="timeline-content">
+            <header class="timeline-header">
+              <h3>Machine Learning Engineer Intern · Token Metrics</h3>
+              <span class="timeline-meta">Mar 2020 – Jun 2020 · Boston, MA</span>
+            </header>
+            <p class="section-text small">
+              Built a <strong>crypto sentiment analysis pipeline</strong> over <strong>140,000+ tweets</strong>,
+              integrating it with a price-forecasting <strong>LSTM</strong>. Designed impact-weighting metrics based on
+              user influence, improving forecasting accuracy by roughly <strong>20%</strong>.
+            </p>
+            <div class="pill-row">
+              <span class="pill">NLP</span>
+              <span class="pill">Sentiment analysis</span>
+              <span class="pill">LSTM</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-badge">
+            <img src="images/accenture-logo.png" alt="Accenture logo" />
+          </div>
+          <div class="timeline-content">
+            <header class="timeline-header">
+              <h3>Data Scientist · Accenture Services Pvt. Ltd.</h3>
+              <span class="timeline-meta">Jan 2017 – Apr 2019 · Bangalore, India</span>
+            </header>
+            <p class="section-text small">
+              Led a team of <strong>18 engineers</strong> to design and deploy <strong>DiPA</strong>, a chatbot serving
+              ~<strong>200 users</strong>, experimenting with multiple Seq2Seq variants and shipping the best-performing
+              deep learning architecture into production.
+            </p>
+            <p class="section-text small">
+              Implemented an <strong>image caption generator</strong> combining ImageNet-pretrained CNN feature
+              extractors with an LSTM decoder, achieving a <strong>BERTScore of 0.92</strong>. Also developed
+              <strong>Parabola</strong>, a graphical multi-level adventure game using Java Swing, implementing
+              <strong>Kruskal’s algorithm</strong> from scratch for random maze generation with clean SOLID + MVC
+              design.
+            </p>
+            <div class="pill-row">
+              <span class="pill">Seq2Seq</span>
+              <span class="pill">CNN + LSTM</span>
+              <span class="pill">Leadership</span>
+              <span class="pill">Java</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <h2 class="section-title">Selected Projects</h2>
+
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-thumb">
+            <!-- Replace with a real image of your visualization -->
+            <img src="images/chicago-police-dashboard.png" alt="Chicago police data visualization" />
+          </div>
+          <div class="project-body">
+            <h3>Chicago Police Misconduct Analytics</h3>
+            <p class="project-meta">Python · SQL · Geospatial · D3.js · ML</p>
+            <p class="section-text small">
+              Built interactive visualizations to study how <strong>ethnicity correlates with likelihood of arrest</strong>
+              using geospatial data from the Chicago Police dataset. Modeled expected compensation for victims using
+              allegation text and structured case attributes, combining relational queries, NLP, and graph analytics.
+            </p>
+            <a class="project-link" href="https://github.com/SuperiorScript" target="_blank" rel="noreferrer">
+              View related work on GitHub →
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb">
+            <img src="images/autonomous-simulator.png" alt="Autonomous vehicle simulator screenshot" />
+          </div>
+          <div class="project-body">
+            <h3>Autonomous Vehicle Simulator (Deep Q-Learning)</h3>
+            <p class="project-meta">Deep Q-Learning · Simulation</p>
+            <p class="section-text small">
+              Trained a Deep Q-Learning agent to learn lane-following behaviour purely from on-screen signals. The
+              agent mastered <strong>4 distinct routes</strong> with ~<strong>78% accuracy</strong> in just
+              <strong>400 epochs</strong>, showcasing stable RL training on a custom environment.
+            </p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb">
+            <img src="images/doom-agent.png" alt="AI playing Doom game" />
+          </div>
+          <div class="project-body">
+            <h3>AI Plays Doom</h3>
+            <p class="project-meta">Deep Conv Q-Learning · Keras</p>
+            <p class="section-text small">
+              Implemented <strong>Deep Convolutional Q-Learning with eligibility traces</strong> to train an AI agent to
+              play Doom in around <strong>150 epochs</strong>. The agent successfully progressed to level 2, learning
+              navigation and combat strategies directly from pixel inputs.
+            </p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb">
+            <img src="images/mask-detection.png" alt="Mask detection CNN examples" />
+          </div>
+          <div class="project-body">
+            <h3>Mask Detection Benchmark</h3>
+            <p class="project-meta">CNN · GoogLeNet · InceptionV3 · Faster RCNN · VGG-19 · YOLO</p>
+            <p class="section-text small">
+              Evaluated multiple architectures (CNN, GoogLeNet, InceptionV3, Faster R-CNN, VGG-19, YOLO) on FMD data to
+              detect whether subjects wore masks properly, achieving F1 scores up to <strong>97.7%</strong> (VGG-19) and
+              <strong>97.3%</strong> (GoogLeNet). Proposed future directions involving face recognition under masks.
+            </p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb">
+            <img src="images/pacman.png" alt="Pacman search visual" />
+          </div>
+          <div class="project-body">
+            <h3>Berkeley Pacman – Search &amp; RL</h3>
+            <p class="project-meta">Search · Minimax · Alpha-Beta · Q-Learning</p>
+            <p class="section-text small">
+              Implemented and tuned <strong>BFS, DFS, UCS, and A* heuristics</strong> for path planning, plus
+              <strong>Minimax</strong> with <strong>Alpha-Beta pruning</strong> and <strong>Expectimax</strong> for
+              adversarial behaviour. Developed an <strong>approximate Q-Learning</strong> agent from scratch.
+            </p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- RESEARCH -->
+    <section id="research" class="section">
+      <h2 class="section-title">Research</h2>
+
+      <article class="research-item">
+        <div class="research-icon">🔬</div>
+        <div>
+          <h3>Mobile Smear Microscopy – Pathogen Detection</h3>
+          <p class="section-text small">
+            Orchestrated a <strong>mobile pathogen detector</strong> using classification models on microscopic smear
+            images to estimate pathogen concentration, achieving <strong>~76.5% accuracy</strong>. Focused on making
+            low-cost diagnostics more accessible in the field.
+          </p>
+        </div>
+      </article>
+
+      <article class="research-item">
+        <div class="research-icon">📈</div>
+        <div>
+          <h3>Deep Resource Management with Graph Neural Networks</h3>
+          <p class="section-text small">
+            Optimized <strong>Deep RL techniques</strong> for multi-resource cluster scheduling. Revamped an open-source
+            codebase by porting from <strong>Theano/Lasagne to PyTorch</strong>, and extended the design to handle graph
+            inputs via <strong>Graph Neural Networks</strong>, improving flexibility and performance on complex
+            scheduling scenarios.
+          </p>
+        </div>
+      </article>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section">
+      <h2 class="section-title">Education</h2>
+      <div class="education-grid">
+        <article class="education-item">
+          <h3>Northeastern University</h3>
+          <p class="section-text small">
+            <strong>Master of Science – Artificial Intelligence</strong><br />
+            Khoury College of Computer Sciences · Boston, MA<br />
+            CGPA: 3.62 / 4.00 · Sep 2021 – Aug 2022
+          </p>
+        </article>
+
+        <article class="education-item">
+          <h3>Northwestern University</h3>
+          <p class="section-text small">
+            <strong>Master of Science – Computer Engineering</strong><br />
+            McCormick School of Engineering · Evanston, IL<br />
+            CGPA: 3.61 / 4.00 · Sep 2019 – Mar 2021
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <h2 class="section-title">Contact</h2>
+      <p class="section-text">
+        I’m open to opportunities in <strong>ML Engineering</strong>, <strong>AI / LLM Engineering</strong>, and
+        <strong>Data Science</strong> roles – especially where I can own systems end-to-end from data ingestion to
+        evaluation and deployment.
+      </p>
+      <p class="section-text">
+        The best way to reach me is via email:
+        <a href="mailto:ashish.rahul@icloud.com">ashish.rahul@icloud.com</a>
+      </p>
+      <p class="section-text">
+        You can also find me on
+        <a href="https://github.com/SuperiorScript" target="_blank" rel="noreferrer">GitHub</a>
+        and
+        <a href="https://www.linkedin.com/in/aerj/" target="_blank" rel="noreferrer">LinkedIn</a>.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Ashish Ernest Rahul · Built with GitHub Pages</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
